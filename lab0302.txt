@@ -1,0 +1,17 @@
+division of an integer by the integer value of 0
+1. Does the program keep running after the error occurs?
+no. Stopped running
+2. What output appears as the result of the computation, if any?
+-1073741676 (0xC0000094)
+
+division of a double by the double value of 0.0
+1. Does the program keep running after the error occurs?
+yes
+2. What output appears as the result of the computation, if any?
+10.0 / double_divisor has a value of inf
+
+square root of a negative number
+1. Does the program keep running after the error occurs?
+yes
+2. What output appears as the result of the computation, if any?
+sqrt(sqrt_arg) has a value of nan
